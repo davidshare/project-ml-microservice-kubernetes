@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/davidshare/project-ml-microservice-kubernetes/tree/master.svg??style=for-the-badge&logo=appveyor)](https://dl.circleci.com/status-badge/redirect/gh/davidshare/project-ml-microservice-kubernetes/tree/master)
+
 
 ## Project Overview
 
