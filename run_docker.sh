@@ -3,7 +3,7 @@
 ## Complete the following steps to get Docker running locally
 
 # Build image and add a descriptive tag
-docker build -t=housing-prices
+docker build -t=housing-prices .
 
 # List docker images
 docker images
