@@ -24,6 +24,18 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ---
 
+## Relevant Project Files
+- [main file](app.py) - This is the main python file for running the prediction code 
+- [Makefile](./Makefile) - The makefile is used to automate the process of setting a virtual environment for the project, installing dependencies, running the tests, and linting the files.
+- [Dockerfile](Dockerfile) - The dockerfile is used for containerizing the application
+- [.circleci](.circleci/config.yml) - The circleci config file is used for setting up the ci process on circleci. It can perform the same functions as the make file, and is used to run the makefile on the circleci environment
+- [run_docker.sh](run_docker.sh) - This file is used for building the application into a docker image. It runs the Dockerfile, and then starts a container from the image that has been built.
+- [upload_docker.sh](upload_docker.sh) - This file tags the image that was built with the run_docker.sh file and then pushes it to an online docker repository(Docker Hub).
+- [run_kubernetes.sh](run_kubernetes.sh) - This file is responsible for creating a container in a kubernetes cluster using the docker image that has been built and pushed to dockerhub.
+- [circleci image](./circleci%20image.png) - image showing success of circleci pipeline
+- [docker image](./docker-hub-image.png) - image showing pushed docker image
+---
+
 ## Setup the Environment
 
 * Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
