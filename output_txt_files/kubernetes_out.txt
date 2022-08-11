@@ -1,1 +1,8 @@
-<paste log output from Kubernetes-mediated prediction, here>
+davidshare@davidshare ~/D/u/project-ml-microservice-kubernetes (master)> ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "housing-prices" already exists
+NAME             READY   STATUS    RESTARTS   AGE
+housing-prices   1/1     Running   0          12m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+

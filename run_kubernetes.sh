@@ -12,5 +12,5 @@ kubectl run housing-prices --image=$dockerpath
 kubectl get pods
 
 # Forward the container port to a host
-kubectl port-forward housing-prices 8080:80
+kubectl port-forward housing-prices 8000:80
 
